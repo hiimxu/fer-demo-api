@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    gap: 25px;
+}
+.info-wrapper {
+    flex: 1;
+    p {
+        .label {
+            font-weight: 500;
+        }
+    }
+    a {
+        color: var(--primary);
+    }
+}
